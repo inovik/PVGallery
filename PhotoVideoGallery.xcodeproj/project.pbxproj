@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A400D9119D1BA3D00A92835 /* PVGFavoritesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400D9019D1BA3D00A92835 /* PVGFavoritesCollectionViewController.m */; };
+		7A400D9419D1BBCD00A92835 /* PVGMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400D9319D1BBCD00A92835 /* PVGMapViewController.m */; };
+		7A400D9719D1BD0300A92835 /* PVGSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400D9619D1BD0300A92835 /* PVGSettingsViewController.m */; };
+		7A400D9A19D1BD9200A92835 /* PVGNewPhotoVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400D9919D1BD9200A92835 /* PVGNewPhotoVideoViewController.m */; };
+		7A400D9E19D1CE0700A92835 /* PVGCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400D9D19D1CE0700A92835 /* PVGCategory.m */; };
+		7A400DA119D1CE2200A92835 /* PVGPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DA019D1CE2200A92835 /* PVGPhoto.m */; };
+		7A400DA419D1CE2300A92835 /* PVGVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DA319D1CE2300A92835 /* PVGVideo.m */; };
+		7A400DAB19D1DB7D00A92835 /* PVGNewCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DAA19D1DB7D00A92835 /* PVGNewCategoryViewController.m */; };
+		7A400DAD19D1E99F00A92835 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A400DAC19D1E99F00A92835 /* MobileCoreServices.framework */; };
+		7A400DB119D1F0C600A92835 /* PVGImagePickerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DB019D1F0C600A92835 /* PVGImagePickerManager.m */; };
+		7A400DB519D22C0000A92835 /* PVGDetailPhotoVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DB419D22C0000A92835 /* PVGDetailPhotoVideoViewController.m */; };
+		7A400DB919D2357B00A92835 /* star_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A400DB719D2357B00A92835 /* star_off.png */; };
+		7A400DBA19D2357B00A92835 /* star_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A400DB819D2357B00A92835 /* star_on.png */; };
+		7A400DBD19D245CE00A92835 /* PVGChoseCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A400DBC19D245CE00A92835 /* PVGChoseCategoryTableViewController.m */; };
+		7A73B19E19D19D9500180918 /* PVGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73B19D19D19D9500180918 /* PVGBaseNavigationController.m */; };
+		7A73B1A119D1A2C000180918 /* PVGAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73B1A019D1A2C000180918 /* PVGAllTableViewController.m */; };
+		7AE3BC2B19D18B1200A36908 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC2A19D18B1200A36908 /* main.m */; };
+		7AE3BC2E19D18B1200A36908 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC2D19D18B1200A36908 /* AppDelegate.m */; };
+		7AE3BC3719D18B1200A36908 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AE3BC3519D18B1200A36908 /* Main.storyboard */; };
+		7AE3BC3919D18B1200A36908 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AE3BC3819D18B1200A36908 /* Images.xcassets */; };
+		7AE3BC3C19D18B1200A36908 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7AE3BC3A19D18B1200A36908 /* LaunchScreen.xib */; };
+		7AE3BC4819D18B1300A36908 /* PhotoVideoGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC4719D18B1300A36908 /* PhotoVideoGalleryTests.m */; };
+		7AE3BC9319D18E4C00A36908 /* PVGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC8E19D18E4C00A36908 /* PVGBaseViewController.m */; };
+		7AE3BC9419D18E4C00A36908 /* PhotoVideoGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC9019D18E4C00A36908 /* PhotoVideoGallery.xcdatamodeld */; };
+		7AE3BC9619D18E9B00A36908 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE3BC9519D18E9B00A36908 /* CoreData.framework */; };
+		7AE3BC9D19D18FD800A36908 /* PVGBaseCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BC9C19D18FD800A36908 /* PVGBaseCollectionViewController.m */; };
+		7AE3BCA819D1913700A36908 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BCA719D1913700A36908 /* CoreDataManager.m */; };
+		7AE3BCB219D19A6600A36908 /* PVGAllCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BCAE19D19A6600A36908 /* PVGAllCollectionViewController.m */; };
+		7AE3BCB319D19A6600A36908 /* PVGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3BCB119D19A6600A36908 /* PVGTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7AE3BC4219D18B1300A36908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7AE3BC1D19D18B1200A36908 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AE3BC2419D18B1200A36908;
+			remoteInfo = PhotoVideoGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7A400D8F19D1BA3D00A92835 /* PVGFavoritesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGFavoritesCollectionViewController.h; path = Favorites/PVGFavoritesCollectionViewController.h; sourceTree = "<group>"; };
+		7A400D9019D1BA3D00A92835 /* PVGFavoritesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGFavoritesCollectionViewController.m; path = Favorites/PVGFavoritesCollectionViewController.m; sourceTree = "<group>"; };
+		7A400D9219D1BBCD00A92835 /* PVGMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGMapViewController.h; path = Map/PVGMapViewController.h; sourceTree = "<group>"; };
+		7A400D9319D1BBCD00A92835 /* PVGMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGMapViewController.m; path = Map/PVGMapViewController.m; sourceTree = "<group>"; };
+		7A400D9519D1BD0300A92835 /* PVGSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGSettingsViewController.h; path = Settings/PVGSettingsViewController.h; sourceTree = "<group>"; };
+		7A400D9619D1BD0300A92835 /* PVGSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGSettingsViewController.m; path = Settings/PVGSettingsViewController.m; sourceTree = "<group>"; };
+		7A400D9819D1BD9200A92835 /* PVGNewPhotoVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGNewPhotoVideoViewController.h; path = NewPhotoVideo/PVGNewPhotoVideoViewController.h; sourceTree = "<group>"; };
+		7A400D9919D1BD9200A92835 /* PVGNewPhotoVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGNewPhotoVideoViewController.m; path = NewPhotoVideo/PVGNewPhotoVideoViewController.m; sourceTree = "<group>"; };
+		7A400D9C19D1CE0700A92835 /* PVGCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGCategory.h; path = Entities/PVGCategory.h; sourceTree = "<group>"; };
+		7A400D9D19D1CE0700A92835 /* PVGCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGCategory.m; path = Entities/PVGCategory.m; sourceTree = "<group>"; };
+		7A400D9F19D1CE2200A92835 /* PVGPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGPhoto.h; path = Entities/PVGPhoto.h; sourceTree = "<group>"; };
+		7A400DA019D1CE2200A92835 /* PVGPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGPhoto.m; path = Entities/PVGPhoto.m; sourceTree = "<group>"; };
+		7A400DA219D1CE2300A92835 /* PVGVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGVideo.h; path = Entities/PVGVideo.h; sourceTree = "<group>"; };
+		7A400DA319D1CE2300A92835 /* PVGVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGVideo.m; path = Entities/PVGVideo.m; sourceTree = "<group>"; };
+		7A400DA919D1DB7D00A92835 /* PVGNewCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGNewCategoryViewController.h; path = AddNewCategory/PVGNewCategoryViewController.h; sourceTree = "<group>"; };
+		7A400DAA19D1DB7D00A92835 /* PVGNewCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGNewCategoryViewController.m; path = AddNewCategory/PVGNewCategoryViewController.m; sourceTree = "<group>"; };
+		7A400DAC19D1E99F00A92835 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		7A400DAF19D1F0C600A92835 /* PVGImagePickerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGImagePickerManager.h; path = ImagePickerManager/PVGImagePickerManager.h; sourceTree = "<group>"; };
+		7A400DB019D1F0C600A92835 /* PVGImagePickerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGImagePickerManager.m; path = ImagePickerManager/PVGImagePickerManager.m; sourceTree = "<group>"; };
+		7A400DB319D22C0000A92835 /* PVGDetailPhotoVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGDetailPhotoVideoViewController.h; path = NewPhotoVideo/DetailPhotoVideoViewController/PVGDetailPhotoVideoViewController.h; sourceTree = "<group>"; };
+		7A400DB419D22C0000A92835 /* PVGDetailPhotoVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGDetailPhotoVideoViewController.m; path = NewPhotoVideo/DetailPhotoVideoViewController/PVGDetailPhotoVideoViewController.m; sourceTree = "<group>"; };
+		7A400DB719D2357B00A92835 /* star_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_off.png; sourceTree = "<group>"; };
+		7A400DB819D2357B00A92835 /* star_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_on.png; sourceTree = "<group>"; };
+		7A400DBB19D245CE00A92835 /* PVGChoseCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PVGChoseCategoryTableViewController.h; path = NewPhotoVideo/DetailPhotoVideoViewController/PVGChoseCategoryTableViewController.h; sourceTree = "<group>"; };
+		7A400DBC19D245CE00A92835 /* PVGChoseCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PVGChoseCategoryTableViewController.m; path = NewPhotoVideo/DetailPhotoVideoViewController/PVGChoseCategoryTableViewController.m; sourceTree = "<group>"; };
+		7A73B19C19D19D9500180918 /* PVGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGBaseNavigationController.h; sourceTree = "<group>"; };
+		7A73B19D19D19D9500180918 /* PVGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGBaseNavigationController.m; sourceTree = "<group>"; };
+		7A73B19F19D1A2C000180918 /* PVGAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGAllTableViewController.h; sourceTree = "<group>"; };
+		7A73B1A019D1A2C000180918 /* PVGAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGAllTableViewController.m; sourceTree = "<group>"; };
+		7AE3BC2519D18B1200A36908 /* PhotoVideoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoVideoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE3BC2919D18B1200A36908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE3BC2A19D18B1200A36908 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AE3BC2C19D18B1200A36908 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7AE3BC2D19D18B1200A36908 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7AE3BC3619D18B1200A36908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AE3BC3819D18B1200A36908 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AE3BC3B19D18B1200A36908 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7AE3BC4119D18B1300A36908 /* PhotoVideoGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoVideoGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE3BC4619D18B1300A36908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE3BC4719D18B1300A36908 /* PhotoVideoGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoVideoGalleryTests.m; sourceTree = "<group>"; };
+		7AE3BC8D19D18E4C00A36908 /* PVGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGBaseViewController.h; sourceTree = "<group>"; };
+		7AE3BC8E19D18E4C00A36908 /* PVGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGBaseViewController.m; sourceTree = "<group>"; };
+		7AE3BC9119D18E4C00A36908 /* PhotoVideoGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoVideoGallery.xcdatamodel; sourceTree = "<group>"; };
+		7AE3BC9519D18E9B00A36908 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7AE3BC9B19D18FD800A36908 /* PVGBaseCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGBaseCollectionViewController.h; sourceTree = "<group>"; };
+		7AE3BC9C19D18FD800A36908 /* PVGBaseCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGBaseCollectionViewController.m; sourceTree = "<group>"; };
+		7AE3BCA619D1913700A36908 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		7AE3BCA719D1913700A36908 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		7AE3BCAD19D19A6600A36908 /* PVGAllCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGAllCollectionViewController.h; sourceTree = "<group>"; };
+		7AE3BCAE19D19A6600A36908 /* PVGAllCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGAllCollectionViewController.m; sourceTree = "<group>"; };
+		7AE3BCB019D19A6600A36908 /* PVGTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVGTabBarController.h; sourceTree = "<group>"; };
+		7AE3BCB119D19A6600A36908 /* PVGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVGTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AE3BC2219D18B1200A36908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A400DAD19D1E99F00A92835 /* MobileCoreServices.framework in Frameworks */,
+				7AE3BC9619D18E9B00A36908 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE3BC3E19D18B1300A36908 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A400D9B19D1CDBA00A92835 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				7A400D9C19D1CE0700A92835 /* PVGCategory.h */,
+				7A400D9D19D1CE0700A92835 /* PVGCategory.m */,
+				7A400DA219D1CE2300A92835 /* PVGVideo.h */,
+				7A400DA319D1CE2300A92835 /* PVGVideo.m */,
+				7A400D9F19D1CE2200A92835 /* PVGPhoto.h */,
+				7A400DA019D1CE2200A92835 /* PVGPhoto.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		7A400DA719D1DB0600A92835 /* AddNewCategory */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DA919D1DB7D00A92835 /* PVGNewCategoryViewController.h */,
+				7A400DAA19D1DB7D00A92835 /* PVGNewCategoryViewController.m */,
+			);
+			name = AddNewCategory;
+			sourceTree = "<group>";
+		};
+		7A400DA819D1DB1D00A92835 /* CategoryCollection */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BCAD19D19A6600A36908 /* PVGAllCollectionViewController.h */,
+				7AE3BCAE19D19A6600A36908 /* PVGAllCollectionViewController.m */,
+			);
+			name = CategoryCollection;
+			sourceTree = "<group>";
+		};
+		7A400DAE19D1F08A00A92835 /* ImagePickerManager */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DAF19D1F0C600A92835 /* PVGImagePickerManager.h */,
+				7A400DB019D1F0C600A92835 /* PVGImagePickerManager.m */,
+			);
+			name = ImagePickerManager;
+			sourceTree = "<group>";
+		};
+		7A400DB219D22BB200A92835 /* DetailPhotoVideoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DB319D22C0000A92835 /* PVGDetailPhotoVideoViewController.h */,
+				7A400DB419D22C0000A92835 /* PVGDetailPhotoVideoViewController.m */,
+				7A400DBB19D245CE00A92835 /* PVGChoseCategoryTableViewController.h */,
+				7A400DBC19D245CE00A92835 /* PVGChoseCategoryTableViewController.m */,
+			);
+			name = DetailPhotoVideoViewController;
+			sourceTree = "<group>";
+		};
+		7A400DB619D2356A00A92835 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DB719D2357B00A92835 /* star_off.png */,
+				7A400DB819D2357B00A92835 /* star_on.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		7AE3BC1C19D18B1200A36908 = {
+			isa = PBXGroup;
+			children = (
+				7AE3BC2719D18B1200A36908 /* PhotoVideoGallery */,
+				7AE3BC4419D18B1300A36908 /* PhotoVideoGalleryTests */,
+				7AE3BC2619D18B1200A36908 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AE3BC2619D18B1200A36908 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BC2519D18B1200A36908 /* PhotoVideoGallery.app */,
+				7AE3BC4119D18B1300A36908 /* PhotoVideoGalleryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AE3BC2719D18B1200A36908 /* PhotoVideoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DAE19D1F08A00A92835 /* ImagePickerManager */,
+				7AE3BC9219D18E4C00A36908 /* Screens */,
+				7AE3BC8C19D18E4C00A36908 /* BaseClasses */,
+				7AE3BC8F19D18E4C00A36908 /* CoreData */,
+				7AE3BC2C19D18B1200A36908 /* AppDelegate.h */,
+				7AE3BC2D19D18B1200A36908 /* AppDelegate.m */,
+				7AE3BC3519D18B1200A36908 /* Main.storyboard */,
+				7AE3BC3819D18B1200A36908 /* Images.xcassets */,
+				7AE3BC3A19D18B1200A36908 /* LaunchScreen.xib */,
+				7AE3BC9719D18EAB00A36908 /* Frameworks */,
+				7AE3BC2819D18B1200A36908 /* Supporting Files */,
+			);
+			path = PhotoVideoGallery;
+			sourceTree = "<group>";
+		};
+		7AE3BC2819D18B1200A36908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DB619D2356A00A92835 /* images */,
+				7AE3BC2919D18B1200A36908 /* Info.plist */,
+				7AE3BC2A19D18B1200A36908 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE3BC4419D18B1300A36908 /* PhotoVideoGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BC4719D18B1300A36908 /* PhotoVideoGalleryTests.m */,
+				7AE3BC4519D18B1300A36908 /* Supporting Files */,
+			);
+			path = PhotoVideoGalleryTests;
+			sourceTree = "<group>";
+		};
+		7AE3BC4519D18B1300A36908 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BC4619D18B1300A36908 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AE3BC8C19D18E4C00A36908 /* BaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BC8D19D18E4C00A36908 /* PVGBaseViewController.h */,
+				7AE3BC8E19D18E4C00A36908 /* PVGBaseViewController.m */,
+				7AE3BC9B19D18FD800A36908 /* PVGBaseCollectionViewController.h */,
+				7AE3BC9C19D18FD800A36908 /* PVGBaseCollectionViewController.m */,
+				7A73B19C19D19D9500180918 /* PVGBaseNavigationController.h */,
+				7A73B19D19D19D9500180918 /* PVGBaseNavigationController.m */,
+			);
+			path = BaseClasses;
+			sourceTree = "<group>";
+		};
+		7AE3BC8F19D18E4C00A36908 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				7A400D9B19D1CDBA00A92835 /* Entities */,
+				7AE3BCA619D1913700A36908 /* CoreDataManager.h */,
+				7AE3BCA719D1913700A36908 /* CoreDataManager.m */,
+				7AE3BC9019D18E4C00A36908 /* PhotoVideoGallery.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		7AE3BC9219D18E4C00A36908 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BCAF19D19A6600A36908 /* TabBarController */,
+				7AE3BCAC19D19A6600A36908 /* All */,
+				7AE3BCA219D1903000A36908 /* Faforites */,
+				7AE3BCA519D1905900A36908 /* NewVIdeoPhoto */,
+				7AE3BCA419D1904D00A36908 /* Settings */,
+				7AE3BCA319D1904000A36908 /* Map */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		7AE3BC9719D18EAB00A36908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DAC19D1E99F00A92835 /* MobileCoreServices.framework */,
+				7AE3BC9519D18E9B00A36908 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7AE3BCA219D1903000A36908 /* Faforites */ = {
+			isa = PBXGroup;
+			children = (
+				7A400D8F19D1BA3D00A92835 /* PVGFavoritesCollectionViewController.h */,
+				7A400D9019D1BA3D00A92835 /* PVGFavoritesCollectionViewController.m */,
+			);
+			name = Faforites;
+			sourceTree = "<group>";
+		};
+		7AE3BCA319D1904000A36908 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				7A400D9219D1BBCD00A92835 /* PVGMapViewController.h */,
+				7A400D9319D1BBCD00A92835 /* PVGMapViewController.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+		7AE3BCA419D1904D00A36908 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				7A400D9519D1BD0300A92835 /* PVGSettingsViewController.h */,
+				7A400D9619D1BD0300A92835 /* PVGSettingsViewController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		7AE3BCA519D1905900A36908 /* NewVIdeoPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DB219D22BB200A92835 /* DetailPhotoVideoViewController */,
+				7A400D9819D1BD9200A92835 /* PVGNewPhotoVideoViewController.h */,
+				7A400D9919D1BD9200A92835 /* PVGNewPhotoVideoViewController.m */,
+			);
+			name = NewVIdeoPhoto;
+			sourceTree = "<group>";
+		};
+		7AE3BCAC19D19A6600A36908 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				7A400DA819D1DB1D00A92835 /* CategoryCollection */,
+				7A400DA719D1DB0600A92835 /* AddNewCategory */,
+				7A73B19F19D1A2C000180918 /* PVGAllTableViewController.h */,
+				7A73B1A019D1A2C000180918 /* PVGAllTableViewController.m */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		7AE3BCAF19D19A6600A36908 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				7AE3BCB019D19A6600A36908 /* PVGTabBarController.h */,
+				7AE3BCB119D19A6600A36908 /* PVGTabBarController.m */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AE3BC2419D18B1200A36908 /* PhotoVideoGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE3BC4B19D18B1300A36908 /* Build configuration list for PBXNativeTarget "PhotoVideoGallery" */;
+			buildPhases = (
+				7AE3BC2119D18B1200A36908 /* Sources */,
+				7AE3BC2219D18B1200A36908 /* Frameworks */,
+				7AE3BC2319D18B1200A36908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoVideoGallery;
+			productName = PhotoVideoGallery;
+			productReference = 7AE3BC2519D18B1200A36908 /* PhotoVideoGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AE3BC4019D18B1300A36908 /* PhotoVideoGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AE3BC4E19D18B1300A36908 /* Build configuration list for PBXNativeTarget "PhotoVideoGalleryTests" */;
+			buildPhases = (
+				7AE3BC3D19D18B1300A36908 /* Sources */,
+				7AE3BC3E19D18B1300A36908 /* Frameworks */,
+				7AE3BC3F19D18B1300A36908 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7AE3BC4319D18B1300A36908 /* PBXTargetDependency */,
+			);
+			name = PhotoVideoGalleryTests;
+			productName = PhotoVideoGalleryTests;
+			productReference = 7AE3BC4119D18B1300A36908 /* PhotoVideoGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AE3BC1D19D18B1200A36908 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = inov;
+				TargetAttributes = {
+					7AE3BC2419D18B1200A36908 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					7AE3BC4019D18B1300A36908 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 7AE3BC2419D18B1200A36908;
+					};
+				};
+			};
+			buildConfigurationList = 7AE3BC2019D18B1200A36908 /* Build configuration list for PBXProject "PhotoVideoGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AE3BC1C19D18B1200A36908;
+			productRefGroup = 7AE3BC2619D18B1200A36908 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AE3BC2419D18B1200A36908 /* PhotoVideoGallery */,
+				7AE3BC4019D18B1300A36908 /* PhotoVideoGalleryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AE3BC2319D18B1200A36908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE3BC3719D18B1200A36908 /* Main.storyboard in Resources */,
+				7AE3BC3C19D18B1200A36908 /* LaunchScreen.xib in Resources */,
+				7AE3BC3919D18B1200A36908 /* Images.xcassets in Resources */,
+				7A400DB919D2357B00A92835 /* star_off.png in Resources */,
+				7A400DBA19D2357B00A92835 /* star_on.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE3BC3F19D18B1300A36908 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AE3BC2119D18B1200A36908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A400D9A19D1BD9200A92835 /* PVGNewPhotoVideoViewController.m in Sources */,
+				7AE3BC2E19D18B1200A36908 /* AppDelegate.m in Sources */,
+				7A400DB519D22C0000A92835 /* PVGDetailPhotoVideoViewController.m in Sources */,
+				7AE3BCB219D19A6600A36908 /* PVGAllCollectionViewController.m in Sources */,
+				7A400DB119D1F0C600A92835 /* PVGImagePickerManager.m in Sources */,
+				7AE3BCA819D1913700A36908 /* CoreDataManager.m in Sources */,
+				7A400D9419D1BBCD00A92835 /* PVGMapViewController.m in Sources */,
+				7A400DBD19D245CE00A92835 /* PVGChoseCategoryTableViewController.m in Sources */,
+				7A73B19E19D19D9500180918 /* PVGBaseNavigationController.m in Sources */,
+				7A400D9E19D1CE0700A92835 /* PVGCategory.m in Sources */,
+				7AE3BC9319D18E4C00A36908 /* PVGBaseViewController.m in Sources */,
+				7A73B1A119D1A2C000180918 /* PVGAllTableViewController.m in Sources */,
+				7AE3BC2B19D18B1200A36908 /* main.m in Sources */,
+				7A400D9719D1BD0300A92835 /* PVGSettingsViewController.m in Sources */,
+				7AE3BCB319D19A6600A36908 /* PVGTabBarController.m in Sources */,
+				7A400DA119D1CE2200A92835 /* PVGPhoto.m in Sources */,
+				7AE3BC9419D18E4C00A36908 /* PhotoVideoGallery.xcdatamodeld in Sources */,
+				7A400DA419D1CE2300A92835 /* PVGVideo.m in Sources */,
+				7A400DAB19D1DB7D00A92835 /* PVGNewCategoryViewController.m in Sources */,
+				7A400D9119D1BA3D00A92835 /* PVGFavoritesCollectionViewController.m in Sources */,
+				7AE3BC9D19D18FD800A36908 /* PVGBaseCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE3BC3D19D18B1300A36908 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE3BC4819D18B1300A36908 /* PhotoVideoGalleryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7AE3BC4319D18B1300A36908 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7AE3BC2419D18B1200A36908 /* PhotoVideoGallery */;
+			targetProxy = 7AE3BC4219D18B1300A36908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7AE3BC3519D18B1200A36908 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE3BC3619D18B1200A36908 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7AE3BC3A19D18B1200A36908 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AE3BC3B19D18B1200A36908 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AE3BC4919D18B1300A36908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AE3BC4A19D18B1300A36908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AE3BC4C19D18B1300A36908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoVideoGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7AE3BC4D19D18B1300A36908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PhotoVideoGallery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7AE3BC4F19D18B1300A36908 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoVideoGalleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoVideoGallery.app/PhotoVideoGallery";
+			};
+			name = Debug;
+		};
+		7AE3BC5019D18B1300A36908 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoVideoGalleryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoVideoGallery.app/PhotoVideoGallery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AE3BC2019D18B1200A36908 /* Build configuration list for PBXProject "PhotoVideoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE3BC4919D18B1300A36908 /* Debug */,
+				7AE3BC4A19D18B1300A36908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE3BC4B19D18B1300A36908 /* Build configuration list for PBXNativeTarget "PhotoVideoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE3BC4C19D18B1300A36908 /* Debug */,
+				7AE3BC4D19D18B1300A36908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AE3BC4E19D18B1300A36908 /* Build configuration list for PBXNativeTarget "PhotoVideoGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AE3BC4F19D18B1300A36908 /* Debug */,
+				7AE3BC5019D18B1300A36908 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AE3BC9019D18E4C00A36908 /* PhotoVideoGallery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AE3BC9119D18E4C00A36908 /* PhotoVideoGallery.xcdatamodel */,
+			);
+			currentVersion = 7AE3BC9119D18E4C00A36908 /* PhotoVideoGallery.xcdatamodel */;
+			path = PhotoVideoGallery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AE3BC1D19D18B1200A36908 /* Project object */;
+}
